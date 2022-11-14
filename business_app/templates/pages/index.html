@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../../../static/css/style.css">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.0.0/mdb.min.css" rel="stylesheet" />
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script type="module" src="../../../static/js/main.js"></script>
+
+    <title>Puentes Stove Services</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar sticky-top navbar-expand-lg bg-dark navbar-dark">
+        <div class="container">
+            <a href="#" class="navbar-brand">
+                <img src="../../../static/Logo/puentes-stove-services-high-resolution-logo-white-on-transparent-background.png"
+                    alt="" width="30%">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navmenu"
+                aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <div class="collapse navbar-collapse navbar-brand" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#services" class="nav-link">List of Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#service-area" class="nav-link">Service Area</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#pricing" class="nav-link">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#FAQ" class="nav-link">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact-me" class="nav-link">Contact me</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Showcase -->
+    <section class="bg-dark text-light p-1 text-center text-sm-start">
+        <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-between">
+                <div>
+                    <h1>Welcome</h1>
+                    <p class="lead">
+                        Certified Quadrafire Technician with 9+ years of experience servicing Lancaster, PA and
+                        surrounding areas. I do work on pellet and wood stove free-standing and/or insert units
+                    </p>
+                </div>
+                <img class="img-fluid w-50" src="../../../static/Logo/QuadInverted.png" alt="" />
+            </div>
+        </div>
+    </section>
+
+
+    <!-- List of Services -->
+    <section class="p-5">
+        <div class="container">
+            <div class="row text-center g-4">
+                <div class="col-md">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-gem"></i>
+                            </div>
+                            <h3 class="card-title mb-3">Annual Cleaning</h3>
+                            <p class="card-text">
+                                Chimney/Pipe and stove. Test fire and unit tune-up
+                            </p>
+                            <!-- <a href="#" class="btn btn-primary">Read more</a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card bg-secondary text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-tools"></i>
+                            </div>
+                            <h3 class="card-title mb-3">Repairs</h3>
+                            <p class="card-text">
+                                Flat rate for the first hour. Then each 15 min increment at a fee.
+                            </p>
+                            <!-- <a href="#" class="btn btn-dark">Read more</a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-tags-fill"></i>
+                            </div>
+                            <h3 class="card-title mb-3">Part Sales</h3>
+                            <p class="card-text">
+                                Most parts in stock. Option of mailing for fee.
+                            </p>
+                            <!-- <a href="#" class="btn btn-primary">Read more</a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Service Area -->
+    <section id="service-area" class="p-3">
+        <div class="container">
+            <div class="row align-items-center justify-contest-between">
+                <div class="col-md">
+                    <div class="container">
+                        <input type="checkbox" id="zoomCheck">
+                        <label for="zoomCheck">
+                            <img src="../../../static/Logo/map.png" class="mapPic img-fluid" alt="">
+                        </label>
+                    </div>
+                </div>
+                <div class="col-md p-5">
+                    <h2>Service Area</h2>
+                    <p class="lead">
+                        Radius on map represents the area where the service call cost is the flat rate. Click on image
+                        to zoom-in/zoom-out.
+                    </p>
+                    <p>
+                        If you live further away, scroll up and click on "Send Email" or "Call" to get a quote. I
+                        usually
+                        reply within 1 day.
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing -->
+    <section id="pricing" class="p-3 bg-dark">
+        <div class="container text-light">
+            <div class="row align-items-center justify-contest-between">
+                <div class="col-md p-5">
+                    <h2>Pricing</h2>
+                    <p class="lead">
+                        Most service calls will take about an hour long. There is a flat rate for the first hour, this
+                        does not include any parts.
+                    </p>
+                </div>
+                <div class="col-md">
+                    <table class="table table-striped table-hover">
+                        <tr class="table-secondary">
+                            <th>1 hour</th>
+                            <th>$150 - $160</th>
+                        </tr>
+                        <tr class="table-light">
+                            <th>Past the 1st hour, each 15 min</th>
+                            <th>+$25</th>
+                        </tr>
+                        <tr class="table-secondary">
+                            <th>Parts</th>
+                            <th>Price varies</th>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Question Accordion -->
+    <section id="FAQ" class="p-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Frequently asked questions</h2>
+            <!-- Question 1 -->
+            <div class="accordion accordion-flush" id="questions">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#question-one" aria-expanded="false" aria-controls="flush-collapseOne">
+                            What does the annual clean include?
+                        </button>
+                    </h2>
+                    <div id="question-one" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">An annual clean is composed of cleaning of the unit and pipe. Based
+                            on the unit, exhaust blower might need removed to be able to acces the exaust path to run a
+                            brush through it. A unit test fire and tune up will be performed after the cleaning is done
+                            to make sure all the components are fully functional.
+                        </div>
+                    </div>
+                    <!-- Question 2 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#question-two" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                What does a service call include?
+                            </button>
+                        </h2>
+                        <div id="question-two" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">If the unit needs a cleaning, an annual cleaning will be
+                                performed at no extra charge. During a service call a troubleshoot will be performed.
+                                All components will be tested and a tune-up of the unit will be done aswell. Test fire
+                                will be perfomed after the unit has been fixed to ensure the stove is fully functional
+                                and that there are no other faulty components. </div>
+                        </div>
+                    </div>
+                    <!-- Question 3 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#question-three" aria-expanded="false"
+                                aria-controls="flush-collapseTwo">
+                                Are the parts included in the the service call price?
+                            </button>
+                        </h2>
+                        <div id="question-three" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">No, parts are an extra cost on top of the service call fee. Not
+                                all units take the same parts, so price will vary. I will be able to give you a quote
+                                for the estimate of the fixing. Please keep in mind that a unit can fail to operate due
+                                to more than one part being bad.</div>
+                        </div>
+                    </div>
+                    <!-- Question 4 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#question-four" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                I dont live in your area, can I still have my unit serviced?
+                            </button>
+                        </h2>
+                        <div id="question-four" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Yes, keep in mind that an extra cost for the mileage and time
+                                will be added to the flat rate service call price.</div>
+                        </div>
+                    </div>
+                    <!-- Question 5 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#question-five" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                Do you work only on Quadrafire units?
+                            </button>
+                        </h2>
+                        <div id="question-five" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">I am certified to work on Quadrafire pellet and wood stove
+                                units, however I do chimney sweeps aswell at the same cost.</div>
+                        </div>
+                    </div>
+                    <!-- Question 6 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#question-six" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                Where do I find the serial number on my unit?
+                            </button>
+                        </h2>
+                        <div id="question-six" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Most serial numbers start with the numbers 007 followed by more
+                                numbers. If you have a freestanding unit, most likely will be on the back of the unit on
+                                a silver sticker or inside the hopper. If you have an inser unit the sticker will be
+                                inside the body of the units on the right side. Some inserts also have the sticker
+                                inside the hopper.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- Contact me -->
+    <section id="contact-me" class="p-3 bg-dark">
+        <div class="container text-light">
+            <div class="row align-items-center justify-contest-between">
+                <div class="col-md p-5">
+                    <h2 class="text-center pb-3">Contact me</h2>
+                    <p class="lead">
+                        You can contact me through Facebook, Whatsapp, email, or phone call.
+                        Please scan the QR codes below or click on the icons to be redirected to either Facebook or
+                        Whatsapp. If you'd like to send me an email or call
+                        me, please click on the below buttons.
+                    </p>
+                </div>
+                <section class="p-5">
+                    <div class="container">
+                        <div class="row align-items-center text-center g-4">
+                            <div class="col-md">
+                                <div class="card bg-dark text-light">
+                                    <div class="card-body text-center">
+                                        <a href="https://www.facebook.com/PuentesStoveServices" class="btn btn-dark">
+                                            <img src="../../../static/Logo/fbBusiness.png" alt="" class="img-fluid"
+                                                width="180">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md">
+                                <div class="card bg-dark text-light">
+                                    <div class="card-body text-center">
+                                        <a href="https://wa.me/message/BCCASFAIJ2SJG1">
+                                            <img src="../../../static/Logo/whatsappBusiness.jpeg" alt=""
+                                                class="img-fluid qrFB" width="180">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md">
+                                <div class="card bg-dark text-light">
+                                    <div class="card-body">
+                                        <div class="h1 mb-3">
+                                            <i class="bi bi-envelope"></i>
+                                        </div>
+                                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                            data-bs-target="#quote">
+                                            Send email
+                                        </button>
+                                        <div class="h1 mt-3">
+                                            <i class="bi bi-phone"></i>
+                                        </div>
+                                        <a href="tel:7173418059">
+                                            <button type="button" class="btn btn-primary">
+                                                Call me now!
+                                            </button>
+                                        </a>
+
+                                        <!-- Modal -->
+                                        <div class="modal fade" id="quote" tabindex="-1" aria-labelledby="quoteLabel"
+                                            aria-hidden="true">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h1 class="modal-title fs-5 text-dark" id="quoteLabel">
+                                                            Form
+                                                        </h1>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                            aria-label="Close"></button>
+                                                    </div>
+                                                    <div class="modal-body text-dark">
+                                                        Please provide as much information as possible
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <form class="userForm row g-3 needs-validation"
+                                                            action="https://getform.io/f/61b81026-c7e0-43c5-98f6-346faf41e01c"
+                                                            method="POST" novalidate>
+                                                            <div class="col-md-4">
+                                                                <div class="form-outline">
+                                                                    <input type="text" class="form-control"
+                                                                        id="validationCustom01" name="firstName"
+                                                                        required />
+                                                                    <label for="validationCustom01"
+                                                                        class="form-label">First name</label>
+                                                                    <div class="valid-feedback">Looks good!</div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-4">
+                                                                <div class="form-outline">
+                                                                    <input type="text" class="form-control"
+                                                                        id="validationCustom02" name="lastName"
+                                                                        required />
+                                                                    <label for="validationCustom02"
+                                                                        class="form-label">Last name</label>
+                                                                    <div class="valid-feedback">Looks good!</div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-4">
+                                                                <div class="form-outline">
+                                                                    <input type="email" id="typeEmail" name="email"
+                                                                        class="form-control" />
+                                                                    <label class="form-label"
+                                                                        for="typeEmail">Email</label>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-6">
+                                                                <div class="form-outline">
+                                                                    <input type="text" class="form-control" name="city"
+                                                                        id="validationCustom03" required />
+                                                                    <label for="validationCustom03"
+                                                                        class="form-label">City</label>
+                                                                    <div class="invalid-feedback">Please provide a valid
+                                                                        city.</div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-6">
+                                                                <div class="form-outline">
+                                                                    <input type="text" class="form-control"
+                                                                        name="zipcode" id="validationCustom05"
+                                                                        required />
+                                                                    <label for="validationCustom05"
+                                                                        class="form-label">Zip</label>
+                                                                    <div class="invalid-feedback">Please provide a valid
+                                                                        zip.</div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-6">
+                                                                <div class="form-outline">
+                                                                    <input type="text" class="form-control" id="Stove"
+                                                                        name="stove" required />
+                                                                    <label for="Stove" class="form-label">Stove</label>
+                                                                    <div class="valid-feedback">Looks good!</div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-6">
+                                                                <div class="form-outline">
+                                                                    <input type="text" class="form-control"
+                                                                        name="serial" id="serialNumber" required />
+                                                                    <label for="serialNumber" class="form-label">Serial
+                                                                        Number</label>
+                                                                    <div class="invalid-feedback">Please provide a valid
+                                                                        Serial Number.</div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="mb-3 pb-1">
+                                                                <div class="form-outline">
+                                                                    <textarea class="form-control is-valid"
+                                                                        id="validationTextarea"
+                                                                        placeholder="Type your message here"
+                                                                        name="message" required></textarea>
+                                                                    <label for="validationTextarea"
+                                                                        class="form-label">Message</label>
+                                                                    <div class="invalid-feedback">Please enter a message
+                                                                        in the textarea.</div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="modal-footer col-12">
+                                                                <button type="button" class="btn btn-secondary"
+                                                                    data-bs-dismiss="modal">Close</button>
+                                                                <button class="btn btn-primary" type="submit"
+                                                                    id="button">Submit
+                                                                    form</button>
+                                                            </div>
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </section>
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+
+    <!-- MDB -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.0.0/mdb.min.js"></script>
+
+</body>
+<footer>
+    <section id="service-area" class="p-3">
+        <div class="container">
+            <div class="row align-items-center justify-contest-between">
+                <div class="col-md">
+                    <div class="container">
+                        <h1>Robert Puentes</h1>
+                        <p class="lead">
+                            Certified Quadrafire Technician <br>(717)-341-8059
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md p-5">
+                    <img src="../../../static/Logo/puentes-stove-services-high-resolution-logo-black-on-transparent-background.png" alt="" width="500">
+                </div>
+            </div>
+        </div>
+    </section>
+</footer>
+
+</html>
